@@ -1,3 +1,4 @@
+# connections.py
 import time
 import network
 import _thread
@@ -39,4 +40,5 @@ def monitorConnect(ap):
                 with open("log.txt", "a") as f:
                     f.write(f"[{ts}] New device connected: {mac_str}\n")
         time.sleep(2)
+
     _thread.exit()
