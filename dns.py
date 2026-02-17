@@ -1,4 +1,4 @@
-# dnys.py
+# dns.py
 import socket
 
 AP_IP = "192.168.4.1"
@@ -44,3 +44,4 @@ def startDNS():
 
         except Exception as e:
             print("DNS error:", e)
+
